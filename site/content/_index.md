@@ -16,6 +16,8 @@ button:
 socialLinks:
   - .URL: https://www.linkedin.com/
     soicon: img/icon.svg
+  - soicon: img/icons-instagram.svg
+    .URL: https://www.instagram.com/
 blurb:
   heading: Who am I?
   text: I am an architect
