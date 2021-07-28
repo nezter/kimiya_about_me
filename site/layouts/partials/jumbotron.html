@@ -3,7 +3,7 @@
     <img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .image | absURL }}"
+      data-src="{{.image}}"
       alt="{{.imagealt}}"
     />
   </div>
@@ -18,20 +18,20 @@
           >
         </h1>
         <p class="lead">
-          {{.description | safeHTML }}
+          {{.description}}
         </p>
         <a
-          href="{{.butnUrl | absURL }}"
+          href="{{.butnUrl}}"
           class="btn btn-primary"
         >
           <i class="{{.butnImg}}"></i>
-          {{.btnText }}
+          {{.btnText}}
         </a>
       </div>
     </div>
     <div class="row platform-links">
       <div class="col-12">
-        {{ range .socialLinks }}
+        {{range .socialLinks}}
         <a href="{{ .URL | absURL }}" target="_blank"
           ><i class="icon-{{ .soicon }}-line"></i
         ></a>

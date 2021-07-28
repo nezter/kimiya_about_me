@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
             {label: Image, name: image, widget: image},
             {label: "Image SEO", name: "imagealt", widget: "string"}]}
           - {label: "Button", name: button, widget: object, fields: [
-              {label: Button Image, name: butnImg, widget: image},
+              {label: Button Image Class, name: butnImg, widget: string},
               {label: "Button Text", name: "btnText", widget: "string"},
               {label: "Button URL", name: "butnUrl", widget: "string"}]}
           - {label: "Social Links", name: socialLinks, widget: list, fields: [
