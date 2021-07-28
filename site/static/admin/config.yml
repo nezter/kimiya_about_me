@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string},
               {label: Profile Picture, name: aboutimage, widget: image},
               {label: "Text", name: "abouttext", widget: "text"}]}
-          - {label: "About me Button", name: button, widget: object, fields: [
+          - {label: "About me Button", name: aboutbutton, widget: object, fields: [
               {label: Button Image Class, name: abouticon, widget: string},
               {label: "Button Text", name: "aboutbtnText", widget: "string"},
               {label: "Button URL", name: "aboutbuttonURL", widget: "string"}]}
