@@ -9,7 +9,7 @@ homedescription: The architecture of my soul pours out to the world to
 introImage:
   image: img/blog-chemex.jpg
   imagealt: image of the street view of castle of domab
-  introimage: img/screenshot-2021-07-28-005832.png
+  introimage: img/whatsapp-image-2021-07-18-at-12.52.27-pm.jpeg
 button:
   butnImg: icon-mail-fill
   btnText: email icon
