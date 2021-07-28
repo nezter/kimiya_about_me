@@ -1,18 +1,42 @@
-<div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
-  <div class="mw7 center ph3">
-    <div class="db mb3">
-      <div class="mw7 relative bg-fix-primary mb3">
-        <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="rad-showcase__bg">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="{{ .image | absURL }}"
+      alt="{{.imagealt}}"
+    />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+        <h1 class="display-1">
           {{.title}}
+          <br />
+          <span
+            >{{.subtitle}}</span
+          >
         </h1>
-      </div>
-      <div class="mw7 relative bg-fix-primary">
-        {{ if .subtitle }}
-        <p class="b f4 di lh-title mb3 white mw6 bg-primary">
-          {{.subtitle}}
+        <p class="lead">
+          {{.description | safeHTML }}
         </p>
+        <a
+          href="{{.butnUrl | absURL }}"
+          class="btn btn-primary"
+        >
+          <i class="{{.butnImg}}"></i>
+          {{.btnText }}
+        </a>
+      </div>
+    </div>
+    <div class="row platform-links">
+      <div class="col-12">
+        {{ range .socialLinks }}
+        <a href="{{ .URL | absURL }}" target="_blank"
+          ><i class="icon-{{ .soicon }}-line"></i
+        ></a>
         {{ end }}
       </div>
     </div>
   </div>
-</div>
+</section>
