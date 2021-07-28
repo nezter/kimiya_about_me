@@ -26,8 +26,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Description, name: homedescription, widget: text}
           - {label: "Intro Image", name: introImage, widget: object, fields: [
-            {label: Image, name: image, widget: image},
-            {label: "Image SEO", name: "imagealt", widget: "string"}]}
+            {label: Image, name: introimage, widget: image}]}
           - {label: "Button", name: button, widget: object, fields: [
               {label: Button Image Class, name: butnImg, widget: string},
               {label: "Button Text", name: "btnText", widget: "string"},
