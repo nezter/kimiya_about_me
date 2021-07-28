@@ -10,7 +10,7 @@ introImage:
   image: img/screenshot-2021-07-28-005832.png
   imagealt: image of the street view of castle of domab
 button:
-  butnImg: img/screenshot-2021-07-28-010039.png
+  butnImg: icon-mail-fill
   btnText: email icon
   butnUrl: "#"
 blurb:
