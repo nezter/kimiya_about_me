@@ -2,18 +2,25 @@
   <div class="ph3 mw7 center">
     <h2 class="f2 b lh-title mb2">{{.intro.heading}}</h2>
     <p class="mb4 mw6">{{.intro.text}}</p>
-
-    <div class="flex-ns mhn2-ns mb3">
-      {{ range .products }}
-      <div class="ph2-ns w-50-ns">
-        <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
-        <p>{{.text}}</p>
-      </div>
-      {{ end }}
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.education.title }}</h2>
+                <div class="row pt-2 pt-md-4">
+                    {{ range .education }}
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">{{ .year }}</div>
+                            <div class="education__title">{{ .university }}</div>
+                            <div class="education__degree">
+                                {{ .degree }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="tc">
-      <a href="/products" class="btn raise">See all products</a>
-    </div>
-  </div>
-</div>
+</section>

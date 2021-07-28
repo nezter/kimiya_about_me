@@ -22,35 +22,47 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Description, name: homedescription, widget: text}
-          - {label: "Intro Image", name: introImage, widget: object, fields: [
-            {label: Image, name: introimage, widget: image}]}
-          - {label: "Button", name: button, widget: object, fields: [
-              {label: Button Image Class, name: butnImg, widget: string},
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Subtitle", name: "subtitle", widget: string}
+          - {label: "Description", name: "homedescription", widget: text}
+          - {label: "Intro Image", name: "introImage", widget: object, fields: [
+            {label: "Image", name: "introimage", widget: image}]}
+          - {label: "Button", name: "button", widget: object, fields: [
+              {label: "Button Image Class", name: "butnImg", widget: string},
               {label: "Button Text", name: "btnText", widget: "string"},
               {label: "Button URL", name: "butnUrl", widget: "string"}]}
-          - {label: "Social Links", name: socialLinks, widget: list, fields: [
+          - {label: "Social Links", name: "socialLinks", widget: list, fields: [
               {label: "Scocial Media Icon", name: "soicon", widget: "string"},
               {label: "URL", name: ".URL", widget: "string"}]}
           - {label: "Who am I?", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
-              {label: Profile Picture, name: aboutimage, widget: image},
+              {label: "Profile Picture", name: "aboutimage", widget: image},
               {label: "Text", name: "abouttext", widget: "text"}]}
-          - {label: "About me Button", name: aboutbutton, widget: object, fields: [
-              {label: Button Image Class, name: abouticon, widget: string},
+          - {label: "About me Button", name: "aboutbutton", widget: object, fields: [
+              {label: "Button Image Class", name: "abouticon", widget: string},
               {label: "Button Text", name: "aboutbtnText", widget: "string"},
               {label: "Button URL", name: "aboutbuttonURL", widget: "string"}]}
-          - {label: "Intro", name: intro, widget: object, fields: [
+          - {label: "Education Intro", name: "educationintro", widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Education", name: "education", widget: list, fields: [
+              {label: "Year", name: "year", widget: string},
+              {label: "School", name: "school", widget: string},
+              {label: "Degree", name: "degree", widget: "text"}]}
+          - {label: "Experience", name: "experience", widget: list, fields: [
+              {label: "Work Year", name: "workyear", widget: string},
+              {label: "Work Role", name: "workrole", widget: string},
+              {label: "Company", name: "company", widget: "text"}]}
+          - {label: "Client Title", name: "client_and_work_title", widget: string}
+          - {label: "Clients & Works", name: "clientwork", widget: list, fields: [
+              {label: "Project Title", name: "projecttitle", widget: string},
+              {label: "Project Description", name: "projectdescription", widget: text},
+              {label: "Project Image", name: "workimage", widget: image},
+              {label: "Project Image Text", name: "workimgtitle", widget: string},
+              {label: "Button Icon", name: "workicon", widget: string},
+              {label: "Button TXT", name: "workbtnText", widget: string},
+              {label: "Button URL", name: "workbtnURL", widget: string},
+              {label: "Left", name: "is_even", widget: "boolen"}]}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"

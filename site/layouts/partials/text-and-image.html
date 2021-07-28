@@ -1,21 +1,48 @@
-<div class="bg-grey-1 pv4">
-	<div class="ph3 mw7 center">
-
-		<div class="flex-l mhn2-l">
-			<div class="w-40-l ph2-l">
-				<h2 class="f2 b lh-title mb2">{{.heading}}</h2>
-
-				<p>{{.text}}</p>
-			</div>
-
-			<div class="w-60-l ph2-l">
-				<img src="img/home-about-section.jpg" alt="" class="mb3">
-			</div>
-		</div>
-
-		<div class="tc">
-			<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
-		</div>
-
-	</div>
-</div>
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      {{ .client_and_work_title }}
+    </h2>
+    {{ range .clientwork}}
+    <div
+      class="row row--padded rad-animation-group rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}"
+    >
+      {{ if .is_even }}
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>{{ .projecttitle }}</h3>
+        <p class="lead">
+          {{ .projectdescription }}
+        </p>
+        <a href="{{ .workbtnURL }}" class="btn btn-primary"
+          >{{ .workbtnText }}<i class="{{ .workicon }}"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
+          src="{{ .workimage }}"
+          alt="{{ .workimgtitle }}"
+        />
+      </div>
+      {{ else }}
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
+          src="{{ .workimage }}"
+          alt="{{ .workimgtitle }}"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>{{ .projecttitle }}</h3>
+        <p class="lead">
+          {{ .projectdescription }}
+        </p>
+        <a href="{{ .workbtnURL }}" class="btn btn-primary"
+          >{{ .workbtnText }}<i class="{{ .workicon }}"></i
+        ></a>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
