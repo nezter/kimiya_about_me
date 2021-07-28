@@ -2,21 +2,22 @@
 title: Hello, I’m Kimiya Omani
 subtitle: "Architect "
 homedescription: The architecture of my soul pours out to the world to
-  experience. My passion is designing the reality of some ones dreams to allow
-  it to come to life the way it should. I am highly skilled in many tools, this
-  allows me to work virtually with any company or client to complete a project.
-  Feel free to contact me about building your vision into a reality.
+  experience. My passion is designing the reality of someone's dreams to allow
+  them to come to life the way they should. I am highly skilled in many tools,
+  this allows me to work virtually with any company or client to complete a
+  project. Feel free to contact me about building your vision into a reality.
 introImage:
   image: img/blog-chemex.jpg
   imagealt: image of the street view of castle of domab
+  introimage: img/screenshot-2021-07-28-005832.png
 button:
   butnImg: icon-mail-fill
   btnText: email icon
   butnUrl: "#"
 socialLinks:
   - .URL: https://www.linkedin.com/
-    soicon: img/icon.svg
-  - soicon: img/icons-instagram.svg
+    soicon: linkedin
+  - soicon: instagram
     .URL: https://www.instagram.com/
 blurb:
   heading: Who am I?
