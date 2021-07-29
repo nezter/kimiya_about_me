@@ -70,6 +70,17 @@ experiencebtnText: Linkedin
 experiencebutton2URL: "#"
 experiencebutton2icon: icon-profile-fill
 experiencebutton2btnText: Download My Resume
+certificateintro:
+  certificateheading: Certificates
+  certificatetext: _____________________
+certificate:
+  - year: June 2016
+    certificate: Australian Universal Academy
+    location: The 2nd International Conference on Research in Civil Engineering,
+      Architecture, Urban Planning and Sustainable Environment/ Turkey
+  - year: "2018"
+    certificate: Ivan Fist Green Buildings Workshop
+    location: Ivan/Iran
 publicationsintro:
   publicationstitle: Publications
   publicationsdescription: Her presentation in Istanbul, Turkey in 2016 and 2018,
@@ -88,6 +99,16 @@ publications:
       Turnkey
     publishtitle: "Studying the effects of the climate on designing of architectural
       urban objects; pick up the Rahim Khan Bazaar "
+  - publishyear: June 2018
+    publishLocation: National Conference on Fundamental Research in Civil
+      engineering, Architecture, and Urbanization at the Allameh Tabatabaee
+      University/ Tehran
+    publishtitle: Sustainable Development-Development of Workshop Establishment
+  - publishyear: August 2018
+    publishLocation: "The 2nd International Conference on New Horizons in the
+      Engineering Science/ Turkey "
+    publishtitle: Studying the effects of climate on designing of architecture urban
+      objects; pick up the Kong Port
 client_and_work_title: Clients & Works
 applications:
   - toolimg: img/806255.png
