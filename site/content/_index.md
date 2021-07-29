@@ -14,6 +14,12 @@ applications:
   - toolaltimg: V_RAY
     toolimg: img/pngegg.png
 products: []
+Header:
+  logotext1: Kimiya
+  logotext2: Omani
+Menus:
+  URL: Portfolio
+  Name: PORTFOLIO
 intro:
   heading: Education
   text: |-
@@ -65,7 +71,7 @@ educationintro:
   heading: Education
   text: ________________________________________
   educationheading: Education
-  educationtext: listed education
+  educationtext: _________________
 education:
   - school: Architecture School
     year: "2013"
@@ -83,18 +89,18 @@ experience:
   - workrole: Architect
     company: Sabat Architects
     workyear: 2021-Current
-experiencetitle: Experience
 experiencedescription: "Kimiya is currently employed at Sabat Architects and
   before she was employed at Poisheer Architects in Iran overall 4 years "
 experiencebuttonURL: https://www.linkedin.com
 experiencebuttonicon: icon-linkedin-fill
+experiencebutton2icon: icon-profile-fill"
 client_and_work_title: Clients & Works
 socialLinks:
   - .URL: https://www.linkedin.com/
     soicon: linkedin
   - soicon: instagram
     .URL: https://www.instagram.com/
-experiencebutton2icon: icon-profile-fill"
+experiencetitle: Experience
 experiencebutton2btnText: Download My Resume
 subtitle: "Architect "
 title: Hello, I’m Kimiya Omani
