@@ -70,6 +70,24 @@ experiencebtnText: Linkedin
 experiencebutton2URL: "#"
 experiencebutton2icon: icon-profile-fill
 experiencebutton2btnText: Download My Resume
+publicationsintro:
+  publicationstitle: Publications
+  publicationsdescription: Her presentation in Istanbul, Turkey in 2016 and 2018,
+    was published in the 2nd Internation conference on the New Horizon Science
+    and Engineering.
+  publicationsbuttonURL: https://www.linkedin.com
+  publicationsbuttonicon: icon-linkedin-fill
+  publicationsbtnText: My Publications
+  publicationsbutton2URL: "#"
+  publicationsbutton2btnText: My Publications
+  publicationsbutton2icon: icon-profile-fill
+publications:
+  - publishyear: June 2016
+    publishLocation: The 2nd International Conference on Research in Civil
+      Enginering, Architecture, Urban Planning and Sustainable Environment/
+      Turnkey
+    publishtitle: "Studying the effects of the climate on designing of architectural
+      urban objects; pick up the Rahim Khan Bazaar "
 client_and_work_title: Clients & Works
 applications:
   - toolimg: img/806255.png
