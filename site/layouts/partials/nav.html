@@ -2,8 +2,8 @@
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
       <a class="navbar-brand" href="/">
-        <span>Kimiya</span>
-        <span>Omani</span>
+        <span>{{ .Header.logotext1 }}</span>
+        <span>{{ .Header.logotext2 }}</span>
       </a>
       <button
         class="navbar-toggler"
@@ -24,8 +24,8 @@
           </li>
           {{ range .Menus }}
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="{{ .URL }}"
-              >{{ .Name}}</a
+            <a data-scroll class="nav-link" href="{{ .menueurl | absURL }}"
+              >{{ .menuename}}</a
             >
           </li>
           {{ end }}

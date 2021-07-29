@@ -38,8 +38,8 @@ collections: # A list of collections the CMS should be able to edit
               widget: list,
               fields:
                 [
-                  { label: "URL", name: "URL", widget: string },
-                  { label: "Name", name: "Name", widget: string },
+                  { label: "URL", name: "menueurl", widget: string },
+                  { label: "Name", name: "menuename", widget: string },
                 ],
             }
           - {
