@@ -2,6 +2,17 @@
 values:
   heading: Clients & Works
   text: work history
+applications:
+  - toolaltimg: SKTECH DRAWING
+    toolimg: img/806255.png
+  - toolaltimg: AUTOCAD
+    toolimg: img/autocad.png
+  - toolaltimg: ADOBE PHOTOSHOP
+    toolimg: img/adobe-photoshop.png
+  - toolaltimg: 3DS MAX
+    toolimg: img/pngitem_2640388.png
+  - toolaltimg: V_RAY
+    toolimg: img/pngegg.png
 products: []
 intro:
   heading: Education
@@ -77,20 +88,36 @@ experiencedescription: "Kimiya is currently employed at Sabat Architects and
   before she was employed at Poisheer Architects in Iran overall 4 years "
 experiencebuttonURL: https://www.linkedin.com
 experiencebuttonicon: icon-linkedin-fill
-experiencebutton2URL: "#"
-experiencebutton2icon: icon-profile-fill"
 client_and_work_title: Clients & Works
 socialLinks:
   - .URL: https://www.linkedin.com/
     soicon: linkedin
   - soicon: instagram
     .URL: https://www.instagram.com/
+experiencebutton2icon: icon-profile-fill"
 experiencebutton2btnText: Download My Resume
 subtitle: "Architect "
 title: Hello, I’m Kimiya Omani
-image: /img/home-jumbotron.jpg
 experiencebtnText: Linkedin
-clientwork: []
+experiencebutton2URL: "#"
+image: /img/home-jumbotron.jpg
+clientwork:
+  - projecttitle: Minaret
+    projectdescription: In the ancient
+    workimgtitle: Minaret
+    workimage: img/screenshot-2021-07-28-232124.png
+    workicon: icon-arrow-right
+    workbtnText: Case Study
+    workbtnURL: Minaret
+    is_even: "true"
+  - projecttitle: Abassabad building
+    projectdescription: this project is located
+    workimage: img/screenshot-2021-07-28-232048.png
+    workimgtitle: Abassabad building
+    workicon: icon-arrow-right
+    workbtnText: Case Study
+    workbtnURL: Abassabad
+    is_even: "false"
 description: The architecture of my soul pours out to the world to experience.
   My passion is designing the reality of some ones dreams to allow it to come to
   life the way it should. I am highly skilled in many tools, this allows me to
