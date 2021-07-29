@@ -207,6 +207,35 @@ collections: # A list of collections the CMS should be able to edit
               widget: string,
             }
           - {
+              label: "Certificate Intro",
+              name: "certificateintro",
+              widget: object,
+              fields:
+                [
+                  {
+                    label: "Certificate Heading",
+                    name: "certificateheading",
+                    widget: string,
+                  },
+                  {
+                    label: "Certificate Text",
+                    name: "certificatetext",
+                    widget: "text",
+                  },
+                ],
+            }
+          - {
+              label: "Certificate",
+              name: "certificate",
+              widget: list,
+              fields:
+                [
+                  { label: "Year", name: "year", widget: string },
+                  { label: "Certificate", name: "certificate", widget: string },
+                  { label: "Location", name: "location", widget: "text" },
+                ],
+            }
+          - {
               label: "Publications Intro",
               name: "publicationsintro",
               widget: object,
