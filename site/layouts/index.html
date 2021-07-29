@@ -2,10 +2,10 @@
 
 {{ partial "showcase" (dict "introImage" .Params.introImage "title" .Title "subtitle" .Params.subtitle "homedescription" .Params.homedescription "btnText" .Params.btnText) }}
 
-{{ partial "about" }}
+{{ partial "about" "aboutimage" .Params.aboutimage "heading" .Params.heading "abouttext" .Params.abouttext "aboutbuttonURL" .Params.aboutbuttonURL "abouticon" .Params.abouticon "aboutbtnText" .Params.aboutbtnText}}
 
-{{ partial "education" }}
+{{ partial "education" .Params }}
 
-{{ partial "experience" }}
+{{ partial "experience" .Params }}
 
 {{ end }}
