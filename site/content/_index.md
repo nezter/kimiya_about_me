@@ -1,10 +1,7 @@
 ---
-Header:
+header:
   logotext1: Kimiya
   logotext2: Omani
-Menus:
-  - URL: /portfolio
-    Name: PORTFOLIO
 intro:
   title: Hello, I’m Kimiya Omani
   subtitle: Architect
@@ -61,15 +58,16 @@ experience:
   - workrole: Architect
     company: Sabat Architects
     workyear: 2021-Current
-experiencetitle: Experience
-experiencedescription: Kimiya is currently employed at Sabat Architects and
-  before she was employed at Poisheer Architects in Iran overall 4 years
-experiencebuttonURL: https://www.linkedin.com
-experiencebuttonicon: icon-linkedin-fill
-experiencebtnText: Linkedin
-experiencebutton2URL: https://kimiya.netlify.app/img/kimi_portfolio.pdf
-experiencebutton2icon: icon-profile-fill
-experiencebutton2btnText: Download My Resume
+experinceinfo:
+  experiencetitle: Experience
+  experiencedescription: Kimiya is currently employed at Sabat Architects and
+    before she was employed at Poisheer Architects in Iran overall 4 years
+  experiencebuttonURL: https://www.linkedin.com
+  experiencebuttonicon: icon-linkedin-fill
+  experiencebtnText: Linkedin
+  experiencebutton2URL: https://kimiya.netlify.app/img/kimi_portfolio.pdf
+  experiencebutton2icon: icon-profile-fill
+  experiencebutton2btnText: Download My Resume
 certificateintro:
   certificateheading: Certificates
   certificatetext: _____________________
@@ -121,6 +119,20 @@ applications:
     toolimg: img/pngitem_2640388.png
   - toolaltimg: V_RAY
     toolimg: img/pngegg.png
+Header:
+  logotext1: Kimiya
+  logotext2: Omani
+experiencetitle: Experience
+experiencebutton2icon: icon-profile-fill
+experiencedescription: Kimiya is currently employed at Sabat Architects and
+  before she was employed at Poisheer Architects in Iran overall 4 years
+experiencebutton2btnText: Download My Resume
+experiencebuttonURL: https://www.linkedin.com
+Menus:
+  - URL: /portfolio
+    Name: PORTFOLIO
+experiencebuttonicon: icon-linkedin-fill
+experiencebutton2URL: https://kimiya.netlify.app/img/kimi_portfolio.pdf
 clientwork:
   - projecttitle: Minaret
     projectdescription: In the ancient
@@ -138,4 +150,5 @@ clientwork:
     projecttitle: Abassabad building
     projectdescription: this project is located
     workimgtitle: Abassabad building
+experiencebtnText: Linkedin
 ---
