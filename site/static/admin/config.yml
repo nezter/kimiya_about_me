@@ -24,22 +24,22 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {
               label: "Header",
-              name: "Header",
+              name: "header",
               widget: object,
               fields:
                 [
                   { label: "First Name", name: "logotext1", widget: string },
                   { label: "Last Name", name: "logotext2", widget: string },
-                ],
-            }
-          - {
-              label: "Menus",
-              name: "topmenu",
-              widget: list,
-              fields:
-                [
-                  { label: "URL", name: "menueurl", widget: string },
-                  { label: "Name", name: "menuename", widget: string },
+                  {
+                    label: "Menus",
+                    name: "topmenue",
+                    widget: list,
+                    fields:
+                      [
+                        { label: "URL", name: "menueurl", widget: string },
+                        { label: "Name", name: "menuename", widget: string },
+                      ],
+                  },
                 ],
             }
           - {

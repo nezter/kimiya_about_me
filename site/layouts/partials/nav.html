@@ -2,7 +2,7 @@
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
       <a class="navbar-brand" href="/">
-        <span>Kimiya</span>
+        <span>{{ .logotext1 }}</span>
         <span>Omani</span>
       </a>
       <button
@@ -16,15 +16,16 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-lg-auto">
           <li class="nav-item">
             <a class="nav-link" href="/">HOME</a>
           </li>
-          {{ range .topmenu }}
+          {{ range .topmenue }}
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="/"
-              >menuename</a
+            <a data-scroll class="nav-link" href="{{ .menueurl }}"
+              >{{ .menuename }}</a
             >
           </li>
           {{ end }}
