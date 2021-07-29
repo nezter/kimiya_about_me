@@ -44,6 +44,8 @@ aboutbutton:
 educationintro:
   heading: Education
   text: ________________________________________
+  educationheading: Education
+  educationtext: listed education
 education:
   - school: Architecture School
     year: "2013"
@@ -61,6 +63,14 @@ experience:
   - workrole: Architect
     company: Sabat Architects
     workyear: 2021-Current
+experiencetitle: Experience
+experiencedescription: "Kimiya is currently employed at Sabat Architects and
+  before she was employed at Poisheer Architects in Iran overall 4 years "
+experiencebuttonURL: https://www.linkedin.com
+experiencebuttonicon: icon-linkedin-fill
+experiencebtnText: Linkedin
+experiencebutton2URL: "#"
+experiencebutton2icon: icon-profile-fill"
 client_and_work_title: Clients & Works
 intro:
   heading: Education
@@ -71,7 +81,9 @@ intro:
     -
     -
     -
+experiencebutton2btnText: Download My Resume
 image: /img/home-jumbotron.jpg
+clientwork: []
 description: The architecture of my soul pours out to the world to experience.
   My passion is designing the reality of some ones dreams to allow it to come to
   life the way it should. I am highly skilled in many tools, this allows me to
