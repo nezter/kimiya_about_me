@@ -3,13 +3,22 @@ values:
   heading: Clients & Works
   text: work history
 products: []
-title: Hello, I’m Kimiya Omani
-subtitle: "Architect "
-homedescription: The architecture of my soul pours out to the world to
-  experience. My passion is designing the reality of someone's dreams to allow
-  them to come to life the way they should. I am highly skilled in many tools,
-  this allows me to work virtually with any company or client to complete a
-  project. Feel free to contact me about building your vision into a reality.
+intro:
+  heading: Education
+  text: |-
+    education listed
+    -
+    -
+    -
+    -
+    -
+  homedescription: The architecture of my soul pours out to the world to
+    experience. My passion is designing the reality of someone's dreams to allow
+    them to come to life the way they should. I am highly skilled in many tools,
+    this allows me to work virtually with any company or client to complete a
+    project. Feel free to contact me about building your vision into a reality.
+  subtitle: Architect
+  title: Hello, I’m Kimiya Omani
 introImage:
   image: img/blog-chemex.jpg
   imagealt: image of the street view of castle of domab
@@ -18,9 +27,9 @@ button:
   butnImg: icon-mail-fill
   btnText: email icon
   butnUrl: "#"
-socialLinks:
-  - .URL: https://www.linkedin.com/
-    soicon: linkedin
+sociallinks:
+  - soicon: linkedin
+    .URL: https://www.linkedin.com/
   - soicon: instagram
     .URL: https://www.instagram.com/
 blurb:
@@ -68,25 +77,28 @@ experiencedescription: "Kimiya is currently employed at Sabat Architects and
   before she was employed at Poisheer Architects in Iran overall 4 years "
 experiencebuttonURL: https://www.linkedin.com
 experiencebuttonicon: icon-linkedin-fill
-experiencebtnText: Linkedin
 experiencebutton2URL: "#"
 experiencebutton2icon: icon-profile-fill"
 client_and_work_title: Clients & Works
-intro:
-  heading: Education
-  text: |-
-    education listed
-    -
-    -
-    -
-    -
-    -
+socialLinks:
+  - .URL: https://www.linkedin.com/
+    soicon: linkedin
+  - soicon: instagram
+    .URL: https://www.instagram.com/
 experiencebutton2btnText: Download My Resume
+subtitle: "Architect "
+title: Hello, I’m Kimiya Omani
 image: /img/home-jumbotron.jpg
+experiencebtnText: Linkedin
 clientwork: []
 description: The architecture of my soul pours out to the world to experience.
   My passion is designing the reality of some ones dreams to allow it to come to
   life the way it should. I am highly skilled in many tools, this allows me to
   work virtually with any company or client to complete a project. Feel free to
   contact me about building your vision into a reality.
+homedescription: The architecture of my soul pours out to the world to
+  experience. My passion is designing the reality of someone's dreams to allow
+  them to come to life the way they should. I am highly skilled in many tools,
+  this allows me to work virtually with any company or client to complete a
+  project. Feel free to contact me about building your vision into a reality.
 ---
