@@ -14,7 +14,7 @@ Header:
   logotext1: Kimiya
   logotext2: Omani
 Menus:
-  URL: /portfolio
+  URL:
   Name: PORTFOLIO
 intro:
   homedescription: The architecture of my soul pours out to the world to
