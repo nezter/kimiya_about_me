@@ -13,9 +13,6 @@ applications:
 Header:
   logotext1: Kimiya
   logotext2: Omani
-Menus:
-  URL:
-  Name: PORTFOLIO
 intro:
   homedescription: The architecture of my soul pours out to the world to
     experience. My passion is designing the reality of someone's dreams to allow
