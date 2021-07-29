@@ -1,23 +1,21 @@
 <section class="section section--border-bottom rad-animation-group">
-    <div class="container">
-        <div class="row rad-fade-down">
-            <div class="col-12">
-                <h2>{{ .certificatesintro.certificatesheading }}</h2>
-				<h3>{{ .certificatesintro.certificatestext }}</h3>
-                <div class="row pt-2 pt-md-4">
-                    {{ range .certificates }}
-                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
-                        <div class="education">
-                            <div class="education__date">{{ .year }}</div>
-                            <div class="education__title">{{ .certificate }}</div>
-                            <div class="education__degree">
-                                {{ .location }}
-                            </div>
-                        </div>
-                    </div>
-                    {{ end }}
-                </div>
+  <div class="container">
+    <div class="row rad-fade-down">
+      <div class="col-12">
+        <h2>{{ .certificateintro.certificateheading }}</h2>
+        <h3>{{ .certificateintro.certificatetext }}</h3>
+        <div class="row pt-2 pt-md-4">
+          {{ range .certificate }}
+          <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+            <div class="education">
+              <div class="education__date">{{ .year }}</div>
+              <div class="education__title">{{ .certificate }}</div>
+              <div class="education__degree">{{ .location }}</div>
             </div>
+          </div>
+          {{ end }}
         </div>
+      </div>
     </div>
+  </div>
 </section>
