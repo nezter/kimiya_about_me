@@ -2,7 +2,7 @@
 
 {{ partial "showcase" (dict "introImage" .Params.introImage "title" .Title "subtitle" .Params.subtitle "homedescription" .Params.homedescription "btnText" .Params.btnText) }}
 
-{{ partial "about" "aboutimage" .Params.aboutimage "heading" .Params.heading "abouttext" .Params.abouttext "aboutbuttonURL" .Params.aboutbuttonURL "abouticon" .Params.abouticon "aboutbtnText" .Params.aboutbtnText}}
+{{ partial "about" (dict"aboutimage" .Params.aboutimage "heading" .Params.heading "abouttext" .Params.abouttext "aboutbuttonURL" .Params.aboutbuttonURL "abouticon" .Params.abouticon "aboutbtnText" .Params.aboutbtnText)}}
 
 {{ partial "education" .Params }}
 
