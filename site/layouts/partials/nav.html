@@ -21,7 +21,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/">HOME</a>
           </li>
-          {{ range .Menus }}
+          {{ range .topmenu }}
           <li class="nav-item">
             <a data-scroll class="nav-link" href="{{ .menueurl }}"
               >{{ .menuename }}</a
