@@ -167,44 +167,52 @@ collections: # A list of collections the CMS should be able to edit
                 ],
             }
           - {
-              label: "Experience Ttitle",
-              name: "experiencetitle",
-              widget: string,
-            }
-          - {
-              label: "Experience Description",
-              name: "experiencedescription",
-              widget: text,
-            }
-          - {
-              label: "Experience Button Linkedin URL",
-              name: "experiencebuttonURL",
-              widget: string,
-            }
-          - {
-              label: "Experience Button Icon",
-              name: "experiencebuttonicon",
-              widget: string,
-            }
-          - {
-              label: "Experience button Txt",
-              name: "experiencebtnText",
-              widget: string,
-            }
-          - {
-              label: "Experience Resume URL",
-              name: "experiencebutton2URL",
-              widget: string,
-            }
-          - {
-              label: "Experience Resume Button Icon",
-              name: "experiencebutton2icon",
-              widget: string,
-            }
-          - {
-              label: "Experience Resume Button TXT",
-              name: "experiencebutton2btnText",
-              widget: string,
+              label: "Experince Info",
+              name: experinceinfo,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: "Experience Ttitle",
+                    name: "experiencetitle",
+                    widget: string,
+                  },
+                  {
+                    label: "Experience Description",
+                    name: "experiencedescription",
+                    widget: text,
+                  },
+                  {
+                    label: "Experience Button Linkedin URL",
+                    name: "experiencebuttonURL",
+                    widget: string,
+                  },
+                  {
+                    label: "Experience Button Icon",
+                    name: "experiencebuttonicon",
+                    widget: string,
+                  },
+                  {
+                    label: "Experience button Txt",
+                    name: "experiencebtnText",
+                    widget: string,
+                  },
+                  {
+                    label: "Experience Resume URL",
+                    name: "experiencebutton2URL",
+                    widget: string,
+                  },
+                  {
+                    label: "Experience Resume Button Icon",
+                    name: "experiencebutton2icon",
+                    widget: string,
+                  },
+                  {
+                    label: "Experience Resume Button TXT",
+                    name: "experiencebutton2btnText",
+                    widget: string,
+                  },
+                ],
             }
           - {
               label: "Certificate Intro",
