@@ -1,4 +1,8 @@
 ---
+values:
+  heading: Clients & Works
+  text: work history
+products: []
 title: Hello, I’m Kimiya Omani
 subtitle: "Architect "
 homedescription: The architecture of my soul pours out to the world to
@@ -37,6 +41,27 @@ aboutbutton:
   abouticon: icon-smile-fill
   aboutbtnText: About Me
   aboutbuttonURL: https://www.linkedin.com
+educationintro:
+  heading: Education
+  text: ________________________________________
+education:
+  - school: Architecture School
+    year: "2013"
+    degree: Architecture
+  - school: Technical and Vocational University
+    degree: Architecture
+    year: 2015-2017
+  - year: "2019"
+    school: Art Pre-University
+    degree: Architecture
+experience:
+  - workyear: 2017-2018
+    workrole: Architectural Assistant
+    company: Poisheer Architects
+  - workrole: Architect
+    company: Sabat Architects
+    workyear: 2021-Current
+client_and_work_title: Clients & Works
 intro:
   heading: Education
   text: |-
@@ -46,10 +71,6 @@ intro:
     -
     -
     -
-products: []
-values:
-  heading: Clients & Works
-  text: work history
 image: /img/home-jumbotron.jpg
 description: The architecture of my soul pours out to the world to experience.
   My passion is designing the reality of some ones dreams to allow it to come to
