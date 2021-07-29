@@ -67,7 +67,7 @@ experiencedescription: Kimiya is currently employed at Sabat Architects and
 experiencebuttonURL: https://www.linkedin.com
 experiencebuttonicon: icon-linkedin-fill
 experiencebtnText: Linkedin
-experiencebutton2URL: "#"
+experiencebutton2URL: https://kimiya.netlify.app/img/kimi_portfolio.pdf
 experiencebutton2icon: icon-profile-fill
 experiencebutton2btnText: Download My Resume
 certificateintro:
