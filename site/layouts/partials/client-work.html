@@ -1,0 +1,64 @@
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      {{ .client_and_work_title }}
+    </h2>
+	<div class="row row--padded rad-animation-group rad-fade-down">
+      <div class="col-12">
+        <div class="clients">
+          {{ range .applications }}
+          <div class="clients__item">
+            <a href="">
+              <img
+                class="lozad img-responsive"
+                src=".toolimg"
+                alt="{{ .toolaltimg }}"
+              />
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ range .clientwork}}
+    <div
+      class="row row--padded rad-animation-group rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}"
+    >
+      {{ if .is_even }}
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>{{ .projecttitle }}</h3>
+        <p class="lead">
+          {{ .projectdescription }}
+        </p>
+        <a href="{{ .workbtnURL }}" class="btn btn-primary"
+          >{{ .workbtnText }}<i class="{{ .workicon }}"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
+          src="{{ .workimage }}"
+          alt="{{ .workimgtitle }}"
+        />
+      </div>
+      {{ else }}
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
+          src="{{ .workimage }}"
+          alt="{{ .workimgtitle }}"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>{{ .projecttitle }}</h3>
+        <p class="lead">
+          {{ .projectdescription }}
+        </p>
+        <a href="{{ .workbtnURL }}" class="btn btn-primary"
+          >{{ .workbtnText }}<i class="{{ .workicon }}"></i
+        ></a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

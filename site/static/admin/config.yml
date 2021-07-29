@@ -63,6 +63,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Experience Resume Button Icon", name: "experiencebutton2icon", widget: string}
           - {label: "Experience Resume Button TXT", name: "experiencebutton2btnText", widget: string}
           - {label: "Client Title", name: "client_and_work_title", widget: string}
+          - {label: "Application and Tools", name: "applications", widget: list, fields: [
+              {label: "Tool Logo", name: "toolimg", widget: image},
+              {label: "Tool Logo TXT", name: "toolaltimg", widget: string}]}
           - {label: "Clients & Works", name: "clientwork", widget: list, fields: [
               {label: "Project Title", name: "projecttitle", widget: string},
               {label: "Project Description", name: "projectdescription", widget: text},
@@ -71,7 +74,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Button Icon", name: "workicon", widget: string},
               {label: "Button TXT", name: "workbtnText", widget: string},
               {label: "Button URL", name: "workbtnURL", widget: string},
-              {label: "Left", name: "is_even", widget: "boolen"}]}
+              {label: "Left", name: "is_even", widget: "string"}]}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
