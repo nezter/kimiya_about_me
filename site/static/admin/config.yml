@@ -22,16 +22,17 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields:
-          - {label: "Title", name: "title", widget: string}
-          - {label: "Subtitle", name: "subtitle", widget: string}
-          - {label: "Description", name: "homedescription", widget: text}
+          - {label: "Intro", name: "intro", widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Subtitle", name: "subtitle", widget: string},
+              {label: "Description", name: "homedescription", widget: text}]}
           - {label: "Intro Image", name: "introImage", widget: object, fields: [
-            {label: "Image", name: "introimage", widget: image}]}
+              {label: "Image", name: "introimage", widget: image}]}
           - {label: "Button", name: "button", widget: object, fields: [
               {label: "Button Image Class", name: "butnImg", widget: string},
               {label: "Button Text", name: "btnText", widget: "string"},
               {label: "Button URL", name: "butnUrl", widget: "string"}]}
-          - {label: "Social Links", name: "socialLinks", widget: list, fields: [
+          - {label: "Social Links", name: "sociallinks", widget: list, fields: [
               {label: "Scocial Media Icon", name: "soicon", widget: "string"},
               {label: "URL", name: ".URL", widget: "string"}]}
           - {label: "Who am I?", name: blurb, widget: object, fields: [
@@ -54,7 +55,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Work Role", name: "workrole", widget: string},
               {label: "Company", name: "company", widget: "text"}]}
           - {label: "Experience Ttitle", name: "experiencetitle", widget: string}
-          - {label: "Experience Description", name: "experiencedescription", widget: string}
+          - {label: "Experience Description", name: "experiencedescription", widget: text}
           - {label: "Experience Button Linkedin URL", name: "experiencebuttonURL", widget: string}
           - {label: "Experience Button Icon", name: "experiencebuttonicon", widget: string}
           - {label: "Experience button Txt", name: "experiencebtnText", widget: string}

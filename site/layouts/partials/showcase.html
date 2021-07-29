@@ -2,7 +2,7 @@
   <div class="rad-showcase__bg">
     <img
       class="lozad img-responsive"
-      src="{{.introImage | absURL }}"
+      src="{{.introImage.introimage | absURL }}"
       alt="Image of the street view of castle of domab"
     />
   </div>
@@ -10,14 +10,14 @@
     <div class="row">
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
         <h1 class="display-1">
-          {{.title}}
+          {{.intro.title}}
           <br />
           <span
-            >{{.subtitle}}</span
+            >{{.intro.subtitle}}</span
           >
         </h1>
         <p class="lead">
-          {{.homedescription}}
+          {{.intro.homedescription}}
         </p>
         <a
           href="{{.button.butnUrl}}"
@@ -30,7 +30,7 @@
     </div>
     <div class="row platform-links">
       <div class="col-12">
-        {{range .buttonsocialLinks}}
+        {{range .sociallinks}}
         <a href="{{ .URL | absURL }}" target="_blank"
           ><i class="icon-{{ .soicon }}-line"></i
         ></a>
