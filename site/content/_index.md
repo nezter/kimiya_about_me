@@ -18,8 +18,8 @@ Header:
   logotext1: Kimiya
   logotext2: Omani
 Menus:
-  URL: "#"
-  Name: name
+  URL: /portfolio
+  Name: PORTFOLIO
 intro:
   heading: Education
   text: |-
@@ -35,7 +35,7 @@ intro:
     this allows me to work virtually with any company or client to complete a
     project. Feel free to contact me about building your vision into a reality.
   subtitle: Architect
-  title: Kimiya
+  title: Hello, I’m Kimiya Omani
 introImage:
   image: img/blog-chemex.jpg
   imagealt: image of the street view of castle of domab
