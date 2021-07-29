@@ -207,6 +207,77 @@ collections: # A list of collections the CMS should be able to edit
               widget: string,
             }
           - {
+              label: "Publications Intro",
+              name: "publicationsintro",
+              widget: object,
+              fields:
+                [
+                  {
+                    label: "Publications Ttitle",
+                    name: "publicationstitle",
+                    widget: string,
+                  },
+                  {
+                    label: "Publications Description",
+                    name: "publicationsdescription",
+                    widget: text,
+                  },
+                  {
+                    label: "Publications Button Linkedin URL",
+                    name: "publicationsbuttonURL",
+                    widget: string,
+                  },
+                  {
+                    label: "Publications Button Icon",
+                    name: "publicationsbuttonicon",
+                    widget: string,
+                  },
+                  {
+                    label: "Publications button Txt",
+                    name: "publicationsbtnText",
+                    widget: string,
+                  },
+                  {
+                    label: "Publications Resume URL",
+                    name: "publicationsbutton2URL",
+                    widget: string,
+                  },
+                  {
+                    label: "Publications Resume Button Icon",
+                    name: "publicationsbutton2icon",
+                    widget: string,
+                  },
+                  {
+                    label: "Publications Resume Button TXT",
+                    name: "publicationsbutton2btnText",
+                    widget: string,
+                  },
+                ],
+            }
+          - {
+              label: "Publications",
+              name: "publications",
+              widget: list,
+              fields:
+                [
+                  {
+                    label: "Publication Year",
+                    name: "publishyear",
+                    widget: string,
+                  },
+                  {
+                    label: "Publication Location",
+                    name: "publishLocation",
+                    widget: text,
+                  },
+                  {
+                    label: "Publication Title",
+                    name: "publishtitle",
+                    widget: "string",
+                  },
+                ],
+            }
+          - {
               label: "Client Title",
               name: "client_and_work_title",
               widget: string,
