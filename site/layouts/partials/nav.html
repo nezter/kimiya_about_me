@@ -1,17 +1,36 @@
-<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="/">
+        <span>{{ .Header.logotext1 }}</span>
+        <span>{{ .Header.logotext2 }}</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-	<!-- Logo -->
-	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
-		<img src="/img/kimi.svg" alt="Kimi logo" class="br0 db mb0 w-100"/>
-	</a>
-
-	<!-- Primary Nav -->
-	<ul class="flex b grey-3">
-		<li><a href="/products" class="pa3 no-underline db">PORTFOLIO</a></li>
-
-		<li><a href="/values" class="pa3 no-underline db">ABOUT</a></li>
-
-		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
-	</ul>
-
-</nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">HOME</a>
+          </li>
+          {{ range .Menus }}
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="{{ .URL }}"
+              >{{ .Name | upper }}</a
+            >
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
