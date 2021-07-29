@@ -2,10 +2,12 @@
   <div class="container">
     <div class="row rad-fade-down">
       <div class="col-12">
-        <div class="col-12 col-sm-6 mt-5 mt-sm-0"></div>
-        <div class="col-12 col-sm-6">
-          <h2>{{ .certificateintro.certificateheading }}</h2>
-          <h3>{{ .certificateintro.certificatetext }}</h3>
+        <div class="row pt-2 pt-md-4">
+          <div class="col-12 col-sm-6 mt-5 mt-sm-0"></div>
+          <div class="col-12 col-sm-6">
+            <h2>{{ .certificateintro.certificateheading }}</h2>
+            <h3>{{ .certificateintro.certificatetext }}</h3>
+          </div>
         </div>
         <div class="row pt-2 pt-md-4">
           {{ range .certificate }}
