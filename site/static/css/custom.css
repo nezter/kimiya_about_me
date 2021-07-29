@@ -1,1 +1,9 @@
 /* You can customize theme styles here */
+img.lozad.img-responsive.clientimg {
+    max-height: 4rem;
+}
+.tools__name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #e93e34;
+}
