@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-{{ partial "showcase" . }}
+{{ partial "showcase" (dict "introImage" .Params.introImage "title" .Title "subtitle" .Params.subtitle "homedescription" .Params.homedescription "btnText" .Params.btnText) }}
 
-{{ partial "about" . }}
+{{ partial "about" }}
 
-{{ partial "education" . }}
+{{ partial "education" }}
 
-{{ partial "experience" . }}
+{{ partial "experience" }}
 
 {{ end }}
