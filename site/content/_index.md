@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+values:
+  heading: Clients & Works
+  text: work history
+>>>>>>> 23d9e88526b52ad25e7f95b052c68b60500e4e78
 applications:
   - toolaltimg: SKTECH DRAWING
     toolimg: img/806255.png
@@ -10,10 +16,29 @@ applications:
     toolimg: img/pngitem_2640388.png
   - toolaltimg: V_RAY
     toolimg: img/pngegg.png
+<<<<<<< HEAD
 Header:
   logotext1: Kimiya
   logotext2: Omani
 intro:
+=======
+products: []
+Header:
+  logotext1: Kimiya
+  logotext2: Omani
+Menus:
+  URL: /portfolio
+  Name: PORTFOLIO
+intro:
+  heading: Education
+  text: |-
+    education listed
+    -
+    -
+    -
+    -
+    -
+>>>>>>> 23d9e88526b52ad25e7f95b052c68b60500e4e78
   homedescription: The architecture of my soul pours out to the world to
     experience. My passion is designing the reality of someone's dreams to allow
     them to come to life the way they should. I am highly skilled in many tools,
@@ -53,6 +78,11 @@ aboutbutton:
   aboutbtnText: About Me
   aboutbuttonURL: https://www.linkedin.com
 educationintro:
+<<<<<<< HEAD
+=======
+  heading: Education
+  text: ________________________________________
+>>>>>>> 23d9e88526b52ad25e7f95b052c68b60500e4e78
   educationheading: Education
   educationtext: _________________
 education:
@@ -107,4 +137,17 @@ clientwork:
     workbtnText: Case Study
     workbtnURL: Abassabad
     is_even: "false"
+<<<<<<< HEAD
+=======
+description: The architecture of my soul pours out to the world to experience.
+  My passion is designing the reality of some ones dreams to allow it to come to
+  life the way it should. I am highly skilled in many tools, this allows me to
+  work virtually with any company or client to complete a project. Feel free to
+  contact me about building your vision into a reality.
+homedescription: The architecture of my soul pours out to the world to
+  experience. My passion is designing the reality of someone's dreams to allow
+  them to come to life the way they should. I am highly skilled in many tools,
+  this allows me to work virtually with any company or client to complete a
+  project. Feel free to contact me about building your vision into a reality.
+>>>>>>> 23d9e88526b52ad25e7f95b052c68b60500e4e78
 ---
