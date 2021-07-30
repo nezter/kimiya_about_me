@@ -18,7 +18,7 @@ button:
   butnUrl: "#"
 sociallinks:
   - soicon: linkedin
-    .URL: https://www.linkedin.com/
+    .URL: https://www.linkedin.com/in/kimiya-t-omani-04070b162/
   - soicon: instagram
     .URL: https://www.instagram.com/
 blurb:
@@ -37,7 +37,7 @@ blurb:
 aboutbutton:
   abouticon: icon-smile-fill
   aboutbtnText: About Me
-  aboutbuttonURL: https://www.linkedin.com
+  aboutbuttonURL: https://www.linkedin.com/in/kimiya-t-omani-04070b162/
 educationintro:
   educationheading: Education
   educationtext: ________________________________________
@@ -62,7 +62,7 @@ experinceinfo:
   experiencetitle: Experience
   experiencedescription: Kimiya is currently employed at Sabat Architects and
     before she was employed at Poisheer Architects in Iran overall 4 years
-  experiencebuttonURL: https://www.linkedin.com
+  experiencebuttonURL: https://www.linkedin.com/in/kimiya-t-omani-04070b162/
   experiencebuttonicon: icon-linkedin-fill
   experiencebtnText: Linkedin
   experiencebutton2URL: https://kimiya.netlify.app/img/kimi_portfolio.pdf
@@ -84,7 +84,7 @@ publicationsintro:
   publicationsdescription: Her presentation in Istanbul, Turkey in 2016 and 2018,
     was published in the 2nd Internation conference on the New Horizon Science
     and Engineering.
-  publicationsbuttonURL: https://www.linkedin.com
+  publicationsbuttonURL: https://www.linkedin.com/in/kimiya-t-omani-04070b162/
   publicationsbuttonicon: icon-linkedin-fill
   publicationsbtnText: My Publications
   publicationsbutton2URL: "#"
