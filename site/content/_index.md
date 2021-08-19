@@ -139,7 +139,7 @@ clientwork:
     workimgtitle: Minaret
     workicon: icon-arrow-right
     workbtnText: Case Study
-    workbtnURL: "#"
+    workbtnURL: https://kimiya.netlify.app/post/Minaret/
     is_even: "true"
     workimage: img/screenshot-2021-07-28-232124.png
   - workicon: icon-arrow-right
