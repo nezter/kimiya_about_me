@@ -1,6 +1,6 @@
 ---
 title: Minaret
-date: 2021-08-19T16:45:25.358Z
+date: 2021-09-02T14:28:31.139Z
 description: In the ancient times/in the old days, people used to find their way
   around by assigning specific guide pins to different areas (minarets). These
   pins, pictured below, were essentially mud houses with specific carvings or
@@ -9,7 +9,7 @@ description: In the ancient times/in the old days, people used to find their way
   less material!
 image: ""
 ---
-Abassabad building
+The Concept of Minaret
 
 ![](img/3.jpg)
 
