@@ -148,5 +148,19 @@ clientwork:
       constructing green buildings is a part of our culture for instance,
       Introverted architecture is always a way to save energy.
     workimgtitle: No.10 Abassabad Building
+  - workicon: icon-arrow-right
+    workbtnText: See More
+    is_even: faults
+    projectdescription: Terminal buildings can have positive effect on city
+      development construction of a new terminal building can make the
+      surrounding area more attractive and lead to establishment of new
+      companies and residential buildings. A new bus terminal gives a
+      promotional value that also increases amount of travelers.The design of
+      terminal buildings is strongly connected, like for most buildings, to
+      demands and expectations for the occupants or in this case the travelers.
+    projecttitle: Najaf Abad Bus Terminal
+    workimage: img/12.jpg
+    workbtnURL: https://kimiya.netlify.app/#portfolio
+    workimgtitle: .
 experiencebtnText: Linkedin
 ---
