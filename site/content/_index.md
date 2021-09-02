@@ -1,17 +1,17 @@
 ---
 header:
   logotext1: Kimiya
-  logotext2: Omani
+  logotext2: T.Omani
+  topmenue: []
 intro:
-  title: Hello, I’m Kimiya Omani
-  subtitle: Architect
-  homedescription: The architecture of my soul pours out to the world to
-    experience. My passion is designing the reality of someone's dreams to allow
-    them to come to life the way they should. I am highly skilled in many tools,
-    this allows me to work virtually with any company or client to complete a
-    project. Feel free to contact me about building your vision into a reality.
+  title: The Timeless Way
+  subtitle: '"A building or a town will only be alive to extent that is governed
+    by timeless way." Christopher Alexander'
+  homedescription: It is a process which brings order out of nothing but ourselves
+    ; It cannot be attained, but It will happen of It's own accord, if we will
+    only let It.
 introImage:
-  introimage: img/whatsapp-image-2021-07-18-at-12.52.27-pm.jpeg
+  introimage: img/intro.jpg
 button:
   butnImg: icon-mail-fill
   btnText: email icon
