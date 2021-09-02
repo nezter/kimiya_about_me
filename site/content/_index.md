@@ -22,25 +22,25 @@ sociallinks:
   - soicon: instagram
     .URL: https://www.instagram.com/
 blurb:
-  heading: Who am I?
+  heading: MY STORY
   aboutimage: img/img_7962e.jpg
   abouttext: Kimiya Taghian Omani received a full scholarship through Technical
-    and Vocational University based on her outstanding academic
-    achievements.     Her experience allowed her to place in the top 2
-    percentile for university entrance exams in Iran. Her presentation in
-    Istanbul, Turkey in 2016 and     2018, was published in the 2nd Internation
-    conference on the New Horizon     Science and Engineering. Based on the
-    impact of the environment in the designing of architectural urban objects.
-    She was an Architectural Assistant from 2017 to 2018 at Polsheer Architects.
-    After gaining experience and excelling in her work, she accepted another
-    position at Sabat Architects as an Architect, where she currently remains.
+    and Vocational University based on her outstanding academic achievements.
+    Her experience allowed her to place in the top 2 percentile for university
+    entrance exams in Iran. Her presentation in Istanbul, Turkey in 2016 and
+    2018, was published in the 2nd Internation conference on the New Horizon
+    Science and Engineering. Based on the impact of the environment in the
+    designing of architectural urban objects. She was an Architectural Assistant
+    from 2017 to 2018 at Polsheer Architects. After gaining experience and
+    excelling in her work, she accepted another position at Sabat Architects as
+    an Architect, where she currently remains.
 aboutbutton:
   abouticon: icon-smile-fill
   aboutbtnText: About Me
   aboutbuttonURL: https://www.linkedin.com/in/kimiya-t-omani-04070b162/
 educationintro:
   educationheading: Education
-  educationtext: ________________________________________
+  educationtext: ...
 education:
   - school: Architecture School
     degree: Architecture
@@ -70,7 +70,7 @@ experinceinfo:
   experiencebutton2btnText: Download My Resume
 certificateintro:
   certificateheading: Certificates
-  certificatetext: _____________________
+  certificatetext: ..
 certificate:
   - year: June 2016
     certificate: Australian Universal Academy
@@ -108,17 +108,7 @@ publications:
     publishtitle: Studying the effects of climate on designing of architecture urban
       objects; pick up the Kong Port
 client_and_work_title: Clients & Works
-applications:
-  - toolimg: img/806255.png
-    toolaltimg: SKTECH DRAWING
-  - toolaltimg: AUTOCAD
-    toolimg: img/autocad.png
-  - toolaltimg: ADOBE PHOTOSHOP
-    toolimg: img/adobe-photoshop.png
-  - toolaltimg: 3DS MAX
-    toolimg: img/pngitem_2640388.png
-  - toolaltimg: V_RAY
-    toolimg: img/pngegg.png
+applications: []
 Header:
   logotext1: Kimiya
   logotext2: Omani
