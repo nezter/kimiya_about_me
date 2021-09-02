@@ -138,12 +138,15 @@ clientwork:
     is_even: "true"
     workimage: img/19.jpg
   - workicon: icon-arrow-right
-    workbtnText: Case Study
+    workbtnText: See More
     workbtnURL: https://kimiya.netlify.app/post/abassabad-building/
     is_even: faults
     workimage: img/5.jpg
     projecttitle: Abassabad building
-    projectdescription: this project is located
+    projectdescription: This project is located in the Abbas-Abad street in Isfahan,
+      Iran. In this city privacy and lack of visibility is important. However
+      constructing green buildings is a part of our culture for instance,
+      Introverted architecture is always a way to save energy.
     workimgtitle: Abassabad building
 experiencebtnText: Linkedin
 ---
