@@ -1,5 +1,5 @@
 ---
-title: najaf abad bus terminal
+title: Najaf Abad Bus Terminal
 date: 2021-09-02T14:40:20.643Z
 description: Terminal buildings can have positive effect on city development
   construction of a new terminal building can make the surrounding area more
