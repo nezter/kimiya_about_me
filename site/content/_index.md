@@ -141,7 +141,7 @@ clientwork:
     workbtnText: Case Study
     workbtnURL: https://kimiya.netlify.app/post/abassabad-building/
     is_even: faults
-    workimage: img/screenshot-2021-07-28-232048.png
+    workimage: img/5.jpg
     projecttitle: Abassabad building
     projectdescription: this project is located
     workimgtitle: Abassabad building
