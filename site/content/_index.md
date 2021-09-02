@@ -142,7 +142,7 @@ clientwork:
     workbtnURL: https://kimiya.netlify.app/post/abassabad-building/
     is_even: faults
     workimage: img/5.jpg
-    projecttitle: Abassabad building
+    projecttitle: No.10 Abassabad Building
     projectdescription: This project is located in the Abbas-Abad street in Isfahan,
       Iran. In this city privacy and lack of visibility is important. However
       constructing green buildings is a part of our culture for instance,
