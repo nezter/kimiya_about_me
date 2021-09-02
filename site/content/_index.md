@@ -23,7 +23,7 @@ sociallinks:
     .URL: https://www.instagram.com/
 blurb:
   heading: Who am I?
-  aboutimage: img/whatsapp-image-2021-07-26-at-3.36.33-pm.jpeg
+  aboutimage: img/img_7962e.jpg
   abouttext: Kimiya Taghian Omani received a full scholarship through Technical
     and Vocational University based on her outstanding academic
     achievements.     Her experience allowed her to place in the top 2
