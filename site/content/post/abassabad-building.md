@@ -11,6 +11,8 @@ image: ""
 ---
 The Concept of Minaret
 
+![](img/19.jpg)
+
 ![](img/3.jpg)
 
 ![](img/4.jpg)
