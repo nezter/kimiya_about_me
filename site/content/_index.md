@@ -125,13 +125,18 @@ experiencebuttonicon: icon-linkedin-fill
 experiencebutton2URL: https://kimiya.netlify.app/img/kimi_portfolio.pdf
 clientwork:
   - projecttitle: Minaret
-    projectdescription: In the ancient
+    projectdescription: In the ancient times/in the old days, people used to find
+      their way around by assigning specific guide pins to different areas
+      (minarets). These pins, pictured below, were essentially mud houses with
+      specific carvings or writings, intended to help people navigate their
+      surroundings. now the question is that how can we redesign it more modern,
+      multi-functional and with less material!
     workimgtitle: Minaret
     workicon: icon-arrow-right
-    workbtnText: Case Study
+    workbtnText: See More
     workbtnURL: https://kimiya.netlify.app/post/Minaret/
     is_even: "true"
-    workimage: img/screenshot-2021-07-28-232124.png
+    workimage: img/19.jpg
   - workicon: icon-arrow-right
     workbtnText: Case Study
     workbtnURL: https://kimiya.netlify.app/post/abassabad-building/
