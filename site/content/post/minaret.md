@@ -11,6 +11,8 @@ image: img/abbas-abad.png
 
 ![](img/6.jpg)
 
+![](img/22.jpg)
+
 ![](img/7.jpg)
 
 ![](img/8.jpg)
