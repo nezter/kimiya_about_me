@@ -134,7 +134,7 @@ clientwork:
     workimgtitle: Minaret
     workicon: icon-arrow-right
     workbtnText: See More
-    workbtnURL: https://kimiya.netlify.app/post/Minaret/
+    workbtnURL: https://kimiya.netlify.app/admin/#/collections/post/entries/abassabad-building
     is_even: "true"
     workimage: img/19.jpg
   - workicon: icon-arrow-right
